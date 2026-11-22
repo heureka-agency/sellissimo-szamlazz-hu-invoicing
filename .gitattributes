@@ -1,0 +1,2 @@
+# Keep provider-supplied XSD files byte-for-byte.
+resources/schemas/*.xsd -text whitespace=-trailing-space

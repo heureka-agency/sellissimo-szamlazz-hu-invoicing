@@ -1,0 +1,48 @@
+{
+    "name": "sellissimo/szamlazz-hu-invoicing",
+    "description": "Számlázz.hu invoicing for Sellissimo on Statamic 6",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "brick/math": "^0.15 || ^0.16 || ^0.17 || ^1.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "sellissimo/core": "^1.0.1",
+        "statamic/cms": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sellissimo\\SzamlazzHu\\": "src/"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Számlázz.hu for Sellissimo",
+            "slug": "sellissimo-szamlazz-hu",
+            "editions": [
+                "free",
+                "pro"
+            ]
+        },
+        "laravel": {
+            "providers": [
+                "Sellissimo\\SzamlazzHu\\ServiceProvider"
+            ]
+        }
+    },
+    "homepage": "https://sellissimo.heureka-kreativ.hu/docs/szamlazz-hu-invoicing",
+    "keywords": [
+        "statamic",
+        "sellissimo",
+        "invoicing",
+        "szamlazz-hu"
+    ],
+    "support": {
+        "docs": "https://sellissimo.heureka-kreativ.hu/docs/szamlazz-hu-invoicing",
+        "issues": "https://github.com/heureka-agency/sellissimo-szamlazz-hu-invoicing/issues",
+        "source": "https://github.com/heureka-agency/sellissimo-szamlazz-hu-invoicing"
+    }
+}

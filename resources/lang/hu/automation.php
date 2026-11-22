@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'incomplete_history' => 'A helyesbítéshez szükség van az eredeti számlaszámra és a kiállított bizonylatok tételes adataira.',
+    'pending_document' => 'Új bizonylat jóváhagyása előtt egyeztesse a korábbi beküldés eredményét.',
+    'already_adjusted' => 'Ehhez a változáshoz már készült bizonylat, vagy az eredeti számlát már sztornózták.',
+    'insufficient_balance' => 'A jóváírás meghaladja az eredeti áfakulccsal számlázott mennyiséget vagy összeget.',
+    'missing_source' => 'Válasszon igazolt rendelésmódosítást a helyesbítéshez.',
+    'no_change' => 'Nincs további számlázandó eltérés.',
+    'amendment' => 'Ellenőrizze a véglegesített rendelésmódosítást és a hozzá tartozó pénzügyi teljesítést.',
+    'return' => 'Vesse össze a visszavett árut és a teljesült visszatérítést az eredeti számlával.',
+    'cancellation' => 'Ellenőrizze a törölt rendelést és a teljes egészében rendezett egyenleget.',
+    'incomplete_cancellation' => 'A rendelést törölték, de a visszatérítés még nem teljesült maradéktalanul.',
+    'reversed_refund' => 'A fizetési szolgáltató visszavont egy teljesült visszatérítést. Egyeztesse a pénzmozgást és a kiállított bizonylatokat.',
+    'partly_settled' => 'A visszatérítés csak részben teljesült. Együtt ellenőrizze a kapcsolódó pénzmozgásokat.',
+    'return_mismatch' => 'A visszavett áru, a rendelési tétel és a teljesült visszatérítés nem egyeztethető egyetlen teljes jóváírással.',
+    'unallocated_refund' => 'A pénzmozgáshoz nem tartozik igazolt tételmódosítás. Ellenőrizze az eredeti tételt és az áfát a Számlázz.hu felületén.',
+    'exchange_review' => 'A cseretermék adatait és áfáját igazolni kell. Ellenőrizze a cserét a Számlázz.hu felületén.',
+    'amendment_mismatch' => 'A rendelésmódosítás előtti és utáni adatok eltérése nem egyezik a rendezett különbözettel.',
+    'previous_amendment' => 'Először egyeztesse a korábbi rendelésmódosításokat a véglegesítésük sorrendjében.',
+    'ambiguous_return' => 'A visszavett darabok nem rendelhetők egyértelműen egyetlen számlázott árhoz és áfakulcshoz.',
+    'return_rounding' => 'Az eredeti nettó, áfa- és bruttó érték nem osztható fel pontosan egész forintra a visszavett mennyiség szerint.',
+    'dispatch_unknown' => 'Az utolsó csomag feladásakor fennálló fizetési állapot nem igazolt.',
+    'sale_changed' => 'A rendelés az automatikus számlázás előtt megváltozott. Ellenőrizze a befizetéseket, visszatérítéseket és módosításokat.',
+];

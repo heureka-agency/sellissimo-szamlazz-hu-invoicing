@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'incomplete_history' => 'The original reference and itemised document history are required to calculate a correction.',
+    'pending_document' => 'Reconcile the earlier submission before approving another document.',
+    'already_adjusted' => 'This source has already been invoiced or the original invoice has already been reversed.',
+    'insufficient_balance' => 'The credit exceeds the invoiced quantity or value under its original VAT treatment.',
+    'missing_source' => 'Choose a verified order change for this correction.',
+    'no_change' => 'There is no remaining fiscal change to issue.',
+    'amendment' => 'Review the applied order amendment and its linked settlement.',
+    'return' => 'Review the received goods and the settled refund against the original invoice.',
+    'cancellation' => 'Review the cancelled sale and its fully settled balance.',
+    'incomplete_cancellation' => 'The order was cancelled, but the refund has not fully settled.',
+    'reversed_refund' => 'The payment provider reversed a settled refund. Compare the payment and issued documents.',
+    'partly_settled' => 'Only part of the refund group has settled. Review all payment parts together.',
+    'return_mismatch' => 'The received return, its item and the settled amount do not match a single complete credit.',
+    'unallocated_refund' => 'The money movement has no verified commercial adjustment. Check the original item and VAT in Számlázz.hu.',
+    'exchange_review' => 'The replacement requires verified product and VAT details. Review the exchange in Számlázz.hu.',
+    'amendment_mismatch' => 'The amendment snapshots disagree with the settled commercial difference.',
+    'previous_amendment' => 'Reconcile earlier amendments in order before issuing this change.',
+    'ambiguous_return' => 'The returned units cannot be tied to a single issued price and VAT treatment.',
+    'return_rounding' => 'The unit credit does not have an exact allocation of the invoiced whole-forint amounts.',
+    'dispatch_unknown' => 'The final parcel has no verified payment state at dispatch.',
+    'sale_changed' => 'The order changed before automatic issuance. Review its payment, refunds and amendment history.',
+];

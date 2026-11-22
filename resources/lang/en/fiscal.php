@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'billing' => 'Invoice details', 'type' => 'Invoice recipient', 'person' => 'Private person',
+    'business' => 'Hungarian business', 'company' => 'Registered business name (business customers)',
+    'tax_number' => 'Hungarian business tax number (12345678-1-42)',
+    'no_snapshot' => 'The original invoice facts were not captured for this order.',
+    'scope' => 'This sale is outside domestic Hungarian HUF invoicing.',
+    'voucher' => 'Voucher issuance and redemption require staff review.',
+    'buyer' => 'The original billing identity, address or business tax number is incomplete.',
+    'no_payment' => 'The original payment method has no invoice mapping.',
+    'mapping' => 'The recorded VAT treatment for :item does not match a supported invoice mapping.',
+    'evidence' => 'The original amounts or quantities for :item are incomplete.',
+    'rounding' => 'Provider rounding differs from the recorded :field by :difference HUF.',
+    'total' => 'The recorded line amounts differ from the order total.',
+    'dates' => 'Choose valid invoice dates and a supported document language.',
+    'discount' => 'Discount included',
+    'agent_auth' => 'Számla Agent rejected the account credentials or account access (code :code).',
+    'agent_format' => 'The account does not allow the selected electronic invoice format (code :code).',
+    'agent_prefix' => 'The account could not use the invoice number prefix (code :code).',
+    'agent_amounts' => 'Számla Agent rejected the line amounts (code :code).',
+    'agent_business' => 'The issuing account cannot invoice a business under its configured tax status (code :code).',
+    'agent_xml' => 'Számla Agent rejected the submitted XML (code :code).',
+    'xml_characters' => 'A document field contains unsupported characters. Correct the source and review the document.',
+    'xml_invalid' => 'The document does not meet the required Számla Agent XML structure.',
+];

@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'billing' => 'Számlázási adatok', 'type' => 'Kinek a nevére szóljon a számla?', 'person' => 'Magánszemély',
+    'business' => 'Magyar vállalkozás', 'company' => 'Vállalkozás hivatalos neve (céges vásárlásnál)',
+    'tax_number' => 'Magyar adószám (12345678-1-42)',
+    'no_snapshot' => 'Ehhez a rendeléshez nem állnak rendelkezésre az eredeti számlázási adatok.',
+    'scope' => 'A rendelés kívül esik a belföldi, forintalapú számlázás körén.',
+    'voucher' => 'Az utalvány értékesítését vagy beváltását külön kell ellenőrizni.',
+    'buyer' => 'Hiányos a vevő eredeti számlázási neve, címe vagy adószáma.',
+    'no_payment' => 'Az eredeti fizetési módhoz nincs számlázási megnevezés beállítva.',
+    'mapping' => 'A tétel rögzített áfabesorolásához nem található megfelelő számlázási áfakulcs: :item.',
+    'evidence' => 'A tétel eredeti összege vagy mennyisége hiányos: :item.',
+    'rounding' => 'A szolgáltatói kerekítés eltérése (:field): :difference Ft.',
+    'total' => 'A rögzített tételek összege eltér a rendelés végösszegétől.',
+    'dates' => 'Érvényes számladátumokat és támogatott nyelvet kell választani.',
+    'discount' => 'Az összeg tartalmazza a kedvezményt',
+    'agent_auth' => 'A Számla Agent elutasította a kulcsot vagy a fiókhoz való hozzáférést (hibakód: :code).',
+    'agent_format' => 'A fiókban nem érhető el a kiválasztott elektronikus számlaformátum (hibakód: :code).',
+    'agent_prefix' => 'A fiók nem tudta használni a számlaszám előtagját (hibakód: :code).',
+    'agent_amounts' => 'A Számla Agent elutasította a tételösszegeket (hibakód: :code).',
+    'agent_business' => 'A kibocsátó fiók adózási beállításaival nem állítható ki céges számla (hibakód: :code).',
+    'agent_xml' => 'A Számla Agent elutasította a beküldött XML-t (hibakód: :code).',
+    'xml_characters' => 'A bizonylat egyik mezője nem támogatott karaktert tartalmaz. Javítsd a forrásadatot és ellenőrizd újra az előnézetet.',
+    'xml_invalid' => 'A bizonylat nem felel meg a Számla Agent által elvárt XML-szerkezetnek.',
+];
